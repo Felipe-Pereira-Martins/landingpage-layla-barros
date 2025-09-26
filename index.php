@@ -486,7 +486,7 @@ require_once("php/config.php");
 
 		</div>
 	</section>
-	
+
 
 	<!--begin contact -->
 	<section class="section-whit small-padding-top" id="contact">
@@ -558,6 +558,153 @@ require_once("php/config.php");
 	</section>
 	<!--end contact-->
 
+	<!-- FAQ  -->
+	<section id="faq" class="container">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+
+				<div class="text-center">
+					<h2 style="margin-top:0;">Perguntas Frequentes</h2>
+					<p class="text-muted">Tire suas dúvidas rapidamente.</p>
+				</div>
+
+				<h4 style="color:#7e57c2; margin-top:30px;">
+					<i class="fa fa-question-circle"></i> Dúvidas gerais
+				</h4>
+
+				<div class="list-group" id="faq-accordion" role="tablist" aria-multiselectable="true">
+
+					<!-- 1 -->
+					<a class="list-group-item"
+						role="button"
+						data-toggle="collapse"
+						data-parent="#faq-accordion"
+						href="#faq-1"
+						aria-expanded="true"
+						aria-controls="faq-1"
+						style="border:none; border-left:5px solid #6FC0A4;">
+						<i class="fa fa-stethoscope" style="color:#6FC0A4;"></i>
+						<strong> Como funciona a consulta com a Nutricionista Layla Barros?</strong>
+					</a>
+					<div id="faq-1" class="panel-collapse collapse in" role="tabpanel">
+						<div class="panel-body" style="border-left:5px solid #6FC0A4; border-top:none;">
+							A consulta inclui avaliação completa, análise de exames e criação de um plano alimentar totalmente personalizado.
+						</div>
+					</div>
+
+					<!-- 2 -->
+					<a class="list-group-item collapsed"
+						role="button"
+						data-toggle="collapse"
+						data-parent="#faq-accordion"
+						href="#faq-2"
+						aria-expanded="false"
+						aria-controls="faq-2"
+						style="border:none; border-left:5px solid #6FC0A4;">
+						<i class="fa fa-map-marker" style="color:#6FC0A4;"></i>
+						<strong> Atende presencialmente ou apenas online?</strong>
+					</a>
+					<div id="faq-2" class="panel-collapse collapse" role="tabpanel">
+						<div class="panel-body" style="border-left:5px solid #6FC0A4; border-top:none;">
+							Atendo em consultório em <strong>Bom Jardim – RJ</strong> e também ofereço consultas online para todo o Brasil.
+						</div>
+					</div>
+
+					<!-- 3 -->
+					<a class="list-group-item collapsed"
+						role="button"
+						data-toggle="collapse"
+						data-parent="#faq-accordion"
+						href="#faq-3"
+						aria-expanded="false"
+						aria-controls="faq-3"
+						style="border:none; border-left:5px solid #6FC0A4;">
+						<i class="fa fa-flask" style="color:#6FC0A4;"></i>
+						<strong> Preciso levar exames ou fazer algum preparo?</strong>
+					</a>
+					<div id="faq-3" class="panel-collapse collapse" role="tabpanel">
+						<div class="panel-body" style="border-left:5px solid #6FC0A4; border-top:none;">
+							Se já tiver exames recentes, leve-os. Caso contrário, indicarei apenas se forem necessários.
+						</div>
+					</div>
+
+					<!-- 4 -->
+					<a class="list-group-item collapsed"
+						role="button"
+						data-toggle="collapse"
+						data-parent="#faq-accordion"
+						href="#faq-4"
+						aria-expanded="false"
+						aria-controls="faq-4"
+						style="border:none; border-left:5px solid #6FC0A4;">
+						<i class="fa fa-line-chart" style="color:#6FC0A4;"></i>
+						<strong> Os planos servem para emagrecimento e ganho de massa muscular?</strong>
+					</a>
+					<div id="faq-4" class="panel-collapse collapse" role="tabpanel">
+						<div class="panel-body" style="border-left:5px solid #6FC0A4; border-top:none;">
+							Sim, cada plano é ajustado ao objetivo do paciente, seja perda de peso, ganho de massa ou melhora da saúde geral.
+						</div>
+					</div>
+
+					<!-- 5 -->
+					<a class="list-group-item collapsed"
+						role="button"
+						data-toggle="collapse"
+						data-parent="#faq-accordion"
+						href="#faq-5"
+						aria-expanded="false"
+						aria-controls="faq-5"
+						style="border:none; border-left:5px solid #6FC0A4;">
+						<i class="fa fa-leaf" style="color:#6FC0A4;"></i>
+						<strong> Você atende dietas vegetarianas ou veganas?</strong>
+					</a>
+					<div id="faq-5" class="panel-collapse collapse" role="tabpanel">
+						<div class="panel-body" style="border-left:5px solid #6FC0A4; border-top:none;">
+							Sim, elaboro cardápios para vegetarianos, veganos e para restrições como intolerância a glúten ou lactose.
+						</div>
+					</div>
+
+					<!-- 6 -->
+					<a class="list-group-item collapsed"
+						role="button"
+						data-toggle="collapse"
+						data-parent="#faq-accordion"
+						href="#faq-6"
+						aria-expanded="false"
+						aria-controls="faq-6"
+						style="border:none; border-left:5px solid #6FC0A4;">
+						<i class="fa fa-whatsapp" style="color:#6FC0A4;"></i>
+						<strong> Como agendar uma consulta?</strong>
+					</a>
+					<div id="faq-6" class="panel-collapse collapse" role="tabpanel">
+						<div class="panel-body" style="border-left:5px solid #6FC0A4; border-top:none;">
+							Pelo WhatsApp ou formulário de contato nesta página, escolhendo a data e o horário disponíveis.
+						</div>
+					</div>
+
+					<!-- 7 -->
+					<a class="list-group-item collapsed"
+						role="button"
+						data-toggle="collapse"
+						data-parent="#faq-accordion"
+						href="#faq-7"
+						aria-expanded="false"
+						aria-controls="faq-7"
+						style="border:none; border-left:5px solid #6FC0A4;">
+						<i class="fa fa-credit-card" style="color:#6FC0A4;"></i>
+						<strong> Qual é o valor e quais formas de pagamento são aceitas?</strong>
+					</a>
+					<div id="faq-7" class="panel-collapse collapse" role="tabpanel">
+						<div class="panel-body" style="border-left:5px solid #6FC0A4; border-top:none;">
+							Informo os valores no agendamento. Aceito cartão, Pix e transferência bancária.
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<!--begin footer -->
 	<footer class="footer-section">
 		<div class="container">
@@ -575,9 +722,11 @@ require_once("php/config.php");
 						<a href="https://www.instagram.com/nutri.laylabarros/" target="_blank" title="Instagram">
 							<i class="fa fa-instagram"></i>
 						</a>
-						<a href="https://api.whatsapp.com/send/?phone=5522999222310" target="_blank"
-							title="WhatsApp">
+						<a href="https://api.whatsapp.com/send/?phone=5522999222310" target="_blank" title="WhatsApp">
 							<i class="fa fa-whatsapp"></i>
+						</a>
+						<a href="https://www.facebook.com/layla.barrosalmeida" target="_blank" title="Facebook">
+							<i class="fa fa-facebook"></i>
 						</a>
 					</div>
 				</div>
